@@ -15,12 +15,13 @@
 ### 使用举例：
 
 #### 语法1
-在连续几行的文本开头加入1个Tab或者4个空格。
+
 ```Java
     LayoutBuilder(builder: (anchorContext, constraints) {
 
-	    CustomPopWidget.popView(
-	        presentContext, anchorContext, _popContentWidget());
-	        
-	    return _buttonWidget();
-	  })
+    CustomPopWidget.popView(
+        presentContext, anchorContext, _popContentWidget());
+        
+    return _buttonWidget();
+  })
+    /// presentContext直接使用全局context即可
