@@ -1,7 +1,8 @@
+![ss](https://github.com/MambaCONT/CustomPopView/blob/main/imags/1637057244035.jpeg?raw=true "BSlogo")
+
 # CustomPopView
 一个可以在任意位置，任意组件内的简单的弹出视图的封装
 ===========================
-![baidu](https://github.com/MambaCONT/CustomPopView/blob/main/imags/1637057244035.jpeg?raw=true "百度logo")
 ****
 
 |作者|BlackSnake|
@@ -15,7 +16,7 @@
 
 #### 语法1
 在连续几行的文本开头加入1个Tab或者4个空格。
-
+```Java
     LayoutBuilder(builder: (anchorContext, constraints) {
 
 	    CustomPopWidget.popView(
