@@ -5,7 +5,7 @@
 ===========================
 ****
 
-|作者|BlackSnake|
+|Author|BlackSnake|
 |---|---
 
 ****
@@ -14,7 +14,6 @@
 
 ### 使用举例：
 
-#### 语法1
 
 ```Java
     LayoutBuilder(builder: (anchorContext, constraints) {
